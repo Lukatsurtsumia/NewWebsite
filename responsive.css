@@ -1,0 +1,54 @@
+@media (max-width: 768px){
+    .loggo{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+    }
+    .logo{
+        margin-left: 0;
+    }
+    header h1,
+    .logo h1{
+        font-size: 20px;
+    }
+    .signin_box{
+        padding: 15px;
+    }
+    .loggo{
+        display: none;
+    }
+    .txt_container h2{
+        font-size: 25px;
+    }
+    .txt_container h2{
+        font-size: 20px;
+    }
+    .txt_about{
+        font-size: 10px;
+        
+
+    }
+    .row, .single_product{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .choose_container{
+        margin-bottom: 90px;
+    }
+    .signup_box{
+        margin: 10px;
+    }
+}
+@media(max-width: 425px){
+    .choose_container{
+        margin: 0 auto;
+        margin-bottom: 90px;
+    }
+    .btn{
+        margin-top: 10px;
+    }
+    .card{
+        max-width: 100px;
+    }
+}
